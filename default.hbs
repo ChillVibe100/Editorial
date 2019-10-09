@@ -25,6 +25,7 @@
             <div class="inner">
 
                 {{!-- Header --}}
+                {{!-- is this is where the sidebar is?...  --}}
                 <header id="header">
                     {{#if @site.logo}}
                         <a href="{{@site.url}}" class="logo image"><img src="{{@site.logo}}" alt="{{@site.title}}" /></a>
@@ -49,7 +50,7 @@
         </main>
 
         {{!-- The left sidebar - partials/sidebar.hbs --}}
-        {{> sidebar}}
+        {{< sidebar}}
 
     </div>
 
